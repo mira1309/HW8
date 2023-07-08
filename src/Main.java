@@ -27,7 +27,7 @@ public class Main {
         }
 
                 public static void checkIsYearLeap ( int year){
-                        if (year * 4 != 0 || (year % 100 == 0 && year % 400 != 0)) {
+                        if (year % 4 != 0 || (year % 100 == 0 && year % 400 != 0)) {
                                 System.out.println(year + " год не является високосным \n");
                         } else {
                                 System.out.println(year + " год является високосным \n");
